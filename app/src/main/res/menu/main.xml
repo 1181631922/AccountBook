@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/main_action_test"-->
+        <!--android:title="测试"-->
+        <!--app:showAsAction="ifRoom|withText"-->
+        <!--android:icon="@drawable/add_button"-->
+        <!--android:orderInCategory="50">-->
+    <!--</item>-->
+
+
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/setting"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="设置"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="反馈"
         app:showAsAction="never" />
 </menu>
